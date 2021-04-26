@@ -5,12 +5,15 @@ class Script(object):
 I'm an advanced filter bot with many capabilities!
 There is no practical limits for my filtering capacity :)
 
+Don't waste your time her, 
+I can only work in Groups of my master
+
 See <i>/help</i> for commands and more details.</b>
 """
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i>Already told you ,I can only work in my Master's  Group :)</i>
 
 
 <b>Basic Commands;</b>
@@ -22,7 +25,7 @@ See <i>/help</i> for commands and more details.</b>
 
 <b>Filter Commands;</b>
 
-<code>/add name reply</code>  -  Add filter for name
+<code>/mt name reply</code>  -  Add filter for name
 
 <code>/del name</code>  -  Delete filter
 
