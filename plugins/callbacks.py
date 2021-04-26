@@ -48,11 +48,11 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton("How to Deploy?", url="https://t.me/amzmtaccount"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("About Master", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/joinchat/JMQMWw07L_FiZTJl"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/joinchat/KZuCLY6grTplYWM1")
+                    InlineKeyboardButton("Channel", url="https://t.me/joinchat/JMQMWw07L_FiZTJl"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/mt_chats_24")
                 ]
             ]
         )
