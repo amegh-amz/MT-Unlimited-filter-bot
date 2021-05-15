@@ -218,6 +218,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                ],
+                
+                [
+                    InlineKeyboardButton("SOURCE CODE",  url="https://t.me/mt_bot_support")
                 ]
             ]
         ),
@@ -243,12 +247,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://t.me/amzmtaccount"),
+                    InlineKeyboardButton("How to Deploy?", url="https://t.me/mt_bot_support"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
                     InlineKeyboardButton("Channel", url="https://t.me/joinchat/JMQMWw07L_FiZTJl"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/mt_chats_24")
+                    InlineKeyboardButton("Support", url="https://t.me/mt_chats_24")
                 ]
             ]
         ),
@@ -265,7 +269,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/mt_chats_24")
+                        "SOURCE CODE", url="https://t.me/mt_bot_support")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
