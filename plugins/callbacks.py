@@ -74,7 +74,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/amzmtaccount")
+                        "SOURCE CODE", url="https://t.me/mt_bot_support")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
