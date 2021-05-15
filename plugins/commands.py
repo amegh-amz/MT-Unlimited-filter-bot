@@ -252,7 +252,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton("Channel", url="https://t.me/joinchat/JMQMWw07L_FiZTJl"),
-                    InlineKeyboardButton("Support", url="https://t.me/mt_chats_24")
+                    InlineKeyboardButton("Group", url="https://t.me/mt_chats_24")
                 ]
             ]
         ),
