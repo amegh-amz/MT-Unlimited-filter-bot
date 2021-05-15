@@ -31,6 +31,10 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton("Command Help", callback_data="help_data")
+                ],
+                
+                [
+                    InlineKeyboardButton("SOURCE CODE",  url="https://t.me/mt_bot_support")
                 ]
             ]
         )
@@ -47,12 +51,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://t.me/amzmtaccount"),
+                    InlineKeyboardButton("How to Deploy?", url="https://mt_bot_support"),
                     InlineKeyboardButton("About Master", callback_data="about_data")
                 ],
                 [
                     InlineKeyboardButton("Channel", url="https://t.me/joinchat/JMQMWw07L_FiZTJl"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/mt_chats_24")
+                    InlineKeyboardButton("Group", url="https://t.me/mt_chats_24")
                 ]
             ]
         )
